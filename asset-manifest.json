@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/safety-manual/static/css/main.b1aa88a8.css",
+    "main.js": "/safety-manual/static/js/main.1fdeeb74.js",
+    "static/media/emergency-contact.jpg": "/safety-manual/static/media/emergency-contact.53bdb4c3d114a5522947.jpg",
+    "index.html": "/safety-manual/index.html",
+    "main.b1aa88a8.css.map": "/safety-manual/static/css/main.b1aa88a8.css.map",
+    "main.1fdeeb74.js.map": "/safety-manual/static/js/main.1fdeeb74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1aa88a8.css",
+    "static/js/main.1fdeeb74.js"
+  ]
+}
