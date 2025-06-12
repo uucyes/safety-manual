@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1aa88a8.css",
+    "main.js": "/static/js/main.6b251f20.js",
+    "static/media/emergency-contact.jpg": "/static/media/emergency-contact.53bdb4c3d114a5522947.jpg",
+    "index.html": "/index.html",
+    "main.b1aa88a8.css.map": "/static/css/main.b1aa88a8.css.map",
+    "main.6b251f20.js.map": "/static/js/main.6b251f20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1aa88a8.css",
+    "static/js/main.6b251f20.js"
+  ]
+}

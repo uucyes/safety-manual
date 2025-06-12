@@ -1,0 +1,126 @@
+/* 기본 레이아웃 */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* 헤더 스타일 */
+.header {
+  text-align: center;
+  padding: 25px;
+  background-color: #1E3A8A; /* 좀 더 어두운 블루 */
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* 검색창 스타일 */
+.search-container {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 85%;
+  max-width: 650px;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  border-color: #1E3A8A;
+  outline: none;
+}
+
+/* 📌 카테고리 카드 - 3x3 레이아웃 */
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개씩 정렬 */
+  gap: 20px;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+/* 카드 스타일 */
+.category-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.category-card:hover {
+  background-color: #EFF6FF;
+  transform: translateY(-5px);
+  border-color: #1E3A8A;
+}
+
+/* 아이콘 및 텍스트 정렬 */
+.category-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.category-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.category-description {
+  font-size: 16px;
+  color: #555;
+}
+
+/* 🛠 푸터 스타일 - 정렬 개선 */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; /* 양쪽으로 정렬 */
+  align-items: center;
+}
+
+/* 회사 로고 - 중앙 정렬 */
+.company-logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+
+/* 비상연락망 버튼 - 오른쪽 */
+.emergency-contact {
+  padding: 12px 18px;
+  font-size: 18px;
+  background-color: #FF4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.emergency-contact:hover {
+  background-color: #D93030;
+}
